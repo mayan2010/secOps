@@ -1,0 +1,8 @@
+name: Run Shell Commands
+on: [push]
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      name: Say my Name
+      run: echo "Hello, I am pipeline worflow"
